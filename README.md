@@ -2,7 +2,6 @@
 # Create a simple html page and load user images using a JSON of this structure [ { "image":"url"}]. Add 25 image object in JSON array and your test is evaluated based on how fast the images are loading and the coding practices.
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,8 +66,7 @@
 </head>
 <body>
     <div class="image-grid" id="image-grid"></div>
-
-    <script>
+<script>
         document.addEventListener("DOMContentLoaded", function() {
             const images = [
                 { "image": "https://img.freepik.com/free-photo/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded_171337-1267.jpg?size=626&ext=jpg&ga=GA1.1.379831603.1708620886&semt=ais", "name": "John Doe", "profession": "Web Developer" },
